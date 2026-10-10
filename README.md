@@ -1,6 +1,6 @@
 # Ultra mini sistema operativo
 
-Un pequeño sistema operativo, o al menos un sistema de arranque, con dos comandos que imprimen una cadena de texto.
+Un pequeño _sistema operativo_, o al menos un sistema de arranque, con dos comandos que imprimen una cadena de texto.
 
 
 ## Instalación y uso
@@ -17,7 +17,8 @@ Ulteriormente, se descarga el compilador **ASM** (**NASM**) y se instala:
 ```bash
 sudo dnf install ./nasm-3.02-0.fc43.x86_64.rpm -y
 ```
->[!NOTE] Ingresa el nombre correcto del archivo **rpm** que usted descargó.
+> [!NOTE]
+> Ingresa el nombre correcto del archivo **rpm** que usted descargó.
 
 Una vez realizado lo anterior, compilamos el archivo `boot.asm`:
 
@@ -40,4 +41,17 @@ Descarga el binario correspondiente en la sección [Releases](https://github.com
 ```bash
 qemu-system-x86_64 -fda boot
 ```
-[!IMPORTANT] Se requiere instalar el programa de virtualización **Qemu** antes de ejecutar el comando anterior.
+> [!IMPORTANT]
+> Se requiere instalar el programa de virtualización **Qemu** antes de ejecutar el comando anterior.
+
+## Licencia
+
+El código se publica bajo la licencia MIT. Consulta el archivo [LICENSE.](LICENSE)
+
+## Autor
+
+Proyecto desarrollado por **Rosendo Camal**.
+
+Contacto:
++ [GitHub](https://www.github.com/rosendocamal)
++ [Linkedin](https://www.linkedin.com/in/rosendocamal)
