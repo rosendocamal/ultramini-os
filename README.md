@@ -36,7 +36,7 @@ Y ya puedes explorar el software.
 
 ### Modalidad 2
 
-Descarga el binario correspondiente en la sección [Releases](https://github.com/rosendocamal/ultramini-os/releases) de este repositorio y una vez descarga ingresa en su terminal y ejecuta el binario con:
+Descarga el binario correspondiente en la sección [Releases](https://github.com/rosendocamal/ultramini-os/releases) de este repositorio y una vez descargado el archivo, ingresa en su terminal y ejecuta el binario con:
 
 ```bash
 qemu-system-x86_64 -fda boot
